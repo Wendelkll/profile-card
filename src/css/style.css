@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: Kumbh Sans;
+    background-color: var(--background-color);
+    font-size: 18px;
+}
+
+.card {
+    position: absolute;
+    background-color: var(--cartao-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 332px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.card hr {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 55px;
+    gap: 42px;
+}
+
+.card .age, 
+.city, .media, hr{
+    color: var(--text-color);
+}
+
+.card .name,
+.number {
+    font-weight: 700;
+}
